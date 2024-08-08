@@ -7,13 +7,13 @@ int sumOfDigits(int n)
     while (n > 0)
     {
         digits = n % 10;
-        cout << "Digits = " << digits << endl;
+        // cout << "Digits = " << digits << endl;
         sum = sum + digits;
-        cout << "Sum = " << sum << endl;
+        // cout << "Sum = " << sum << endl;
         n = n / 10;
-        cout << "Number = " << n << endl;
+        // cout << "Number = " << n << endl;
     }
-    cout << "Sum =" << sum;
+    cout << "Sum = " << sum;
     return sum;
 }
 

@@ -3,21 +3,21 @@
 
 using namespace std;
 
-void checkArmstrong(int n);
+void checkArmstrong(long long int n);
 
 main()
 {
-    int number = 0;
+    long long int number = 0;
     cout << "Enter a number: " << endl;
     cin >> number;
     checkArmstrong(number);
 }
 
-void checkArmstrong(int n)
+void checkArmstrong(long long int n)
 {
-    int digits, sum = 0, noOfDigits = 0;
-    int initialValue = n;
-    int temp = n;
+    long long int digits, sum = 0, noOfDigits = 0;
+    long long int initialValue = n;
+    long long int temp = n;
     while (temp > 0)
     {
         temp /= 10;
